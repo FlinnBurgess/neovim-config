@@ -49,3 +49,5 @@ require("lspconfig").gdscript.setup({
 })
 
 require("lspconfig").svelte.setup({})
+
+require("aerial").setup({})

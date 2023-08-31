@@ -17,3 +17,5 @@ local function map(mode, lhs, rhs, opts)
 end
 
 map("n", "<leader>tj", "<cmd>A<cr>", { desc = "Jump to test file" })
+
+map("n", "<leader>a", "<cmd>AerialToggle! left<CR>", { desc = "Open Aerial" })

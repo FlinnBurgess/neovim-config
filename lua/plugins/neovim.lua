@@ -10,4 +10,13 @@ return {
   {
     "Pocco81/auto-save.nvim",
   },
+  {
+    "stevearc/aerial.nvim",
+    opts = {},
+    -- Optional dependencies
+    dependencies = {
+      "nvim-treesitter/nvim-treesitter",
+      "nvim-tree/nvim-web-devicons",
+    },
+  },
 }
