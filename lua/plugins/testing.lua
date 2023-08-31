@@ -3,6 +3,9 @@ return {
     "marilari88/neotest-vitest",
   },
   {
+    "nvim-neotest/neotest-jest",
+  },
+  {
     "nvim-neotest/neotest",
     dependencies = {
       "antoinemadec/FixCursorHold.nvim",
@@ -10,7 +13,7 @@ return {
       "nvim-lua/plenary.nvim",
     },
     opts = {
-      adapters = { "neotest-vitest" },
+      adapters = { "neotest-vitest", "neotest-jest" },
     },
   },
 }
