@@ -12,4 +12,10 @@ return {
       table.insert(opts.sources, nls.builtins.formatting.prettierd)
     end,
   },
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      autoformat = false,
+    },
+  },
 }
